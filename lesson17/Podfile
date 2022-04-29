@@ -6,6 +6,5 @@ target 'lesson17' do
   use_frameworks!
 
   # Pods for lesson17
-   pod 'SnapKit', '~> 5.0.0'
-
+  pod 'SnapKit', '~> 5.0.1'
 end

@@ -199,12 +199,3 @@ private extension ViewController {
         self.stackView.addArrangedSubview(view)
     }
 }
-
-
-
-
-
-
-
-
-
