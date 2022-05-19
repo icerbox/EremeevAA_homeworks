@@ -31,7 +31,7 @@ compare(0,2)
 
 let userInput: String = "5"
 
-func checkIfElse(_ value: String) -> Int {
+func checkString(_ value: String) -> Int {
     if let newInt = Int(value) {
         if newInt < 1 || newInt > 100 {
             print("\(value) вне диапазона")
@@ -44,18 +44,9 @@ func checkIfElse(_ value: String) -> Int {
         return -1
     }
 }
-func checkGuard(_ value: String) -> Int {
-    guard let newInt = Int(value)  else {
-        return -1
-    }
-        guard newInt > 1 || newInt < 100 else {
-            return -1
-        }
-            return newInt
-}
 
 checkString(userInput)
-checkGuard(userInput)
+
 //Задание 3
 //Напишите функцию, которая выводит самый большой элемент в массиве.
 

@@ -112,8 +112,8 @@ class Bill {
     }
 }
 // На основе структуры Main инициализируем два заказа
-let newOrder = Main(nameOfProduct: "Конституция РФ", quantity: 1, price: 100, date: Date(), userLogin: "icer")
-let newOrder2 = Main(nameOfProduct: "Уголовный кодекс РФ", quantity: 1, price: 85, date: Date(), userLogin: "icer")
+var newOrder = Main(nameOfProduct: "Конституция РФ", quantity: 1, price: 100, date: Date(), userLogin: "icer")
+var newOrder2 = Main(nameOfProduct: "Уголовный кодекс РФ", quantity: 1, price: 85, date: Date(), userLogin: "icer")
 // При помощи метода addOrder добавляем два заказа в массив ordersArray
 Order.addOrder([newOrder])
 Order.addOrder([newOrder2])
@@ -125,6 +125,5 @@ Order.findUserOrders("icer")
 Payment.invoiceForPayment("icer")
 // Если счет не оплачен, просим оплатить
 //Bill.billPayment("icer", paid: false)
-Bill.billPayment("icer", paid: false)
 // Если счет оплачен, распечатываем чек об оплате
 Bill.billPayment("icer", paid: true)

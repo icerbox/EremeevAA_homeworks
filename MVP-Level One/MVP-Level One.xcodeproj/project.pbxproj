@@ -13,14 +13,10 @@
 		2B2EE287281A228100C05E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2EE285281A228100C05E08 /* Main.storyboard */; };
 		2B2EE289281A228400C05E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B2EE288281A228400C05E08 /* Assets.xcassets */; };
 		2B2EE28C281A228400C05E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2EE28A281A228400C05E08 /* LaunchScreen.storyboard */; };
-		2B2EE297281A228500C05E08 /* MVP_Level_OneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EE296281A228500C05E08 /* MVP_Level_OneTests.swift */; };
-		2B2EE2A1281A228500C05E08 /* MVP_Level_OneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EE2A0281A228500C05E08 /* MVP_Level_OneUITests.swift */; };
-		2B2EE2A3281A228500C05E08 /* MVP_Level_OneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EE2A2281A228500C05E08 /* MVP_Level_OneUITestsLaunchTests.swift */; };
 		2B2EE2B0281A22DB00C05E08 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EE2AF281A22DB00C05E08 /* Comment.swift */; };
 		2B2EE2B2281A232600C05E08 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2EE2B1281A232600C05E08 /* MainPresenter.swift */; };
 		2BC69604281A3711000A33E9 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC69603281A3711000A33E9 /* MainViewController.xib */; };
 		2BC69606281A616F000A33E9 /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC69605281A616F000A33E9 /* ModuleBuilder.swift */; };
-		2BC6960B281A6640000A33E9 /* MainPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6960A281A6640000A33E9 /* MainPresenterTest.swift */; };
 		2BC6960D281A7D86000A33E9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6960C281A7D86000A33E9 /* NetworkService.swift */; };
 		2BC69610281B86F1000A33E9 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC6960F281B86F1000A33E9 /* DetailPresenter.swift */; };
 		2BC69615281B8D63000A33E9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC69613281B8D62000A33E9 /* DetailViewController.swift */; };
@@ -54,15 +50,11 @@
 		2B2EE28B281A228400C05E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B2EE28D281A228400C05E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B2EE292281A228500C05E08 /* MVP-Level OneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP-Level OneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B2EE296281A228500C05E08 /* MVP_Level_OneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_Level_OneTests.swift; sourceTree = "<group>"; };
 		2B2EE29C281A228500C05E08 /* MVP-Level OneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP-Level OneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B2EE2A0281A228500C05E08 /* MVP_Level_OneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_Level_OneUITests.swift; sourceTree = "<group>"; };
-		2B2EE2A2281A228500C05E08 /* MVP_Level_OneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVP_Level_OneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2B2EE2AF281A22DB00C05E08 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		2B2EE2B1281A232600C05E08 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		2BC69603281A3711000A33E9 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		2BC69605281A616F000A33E9 /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
-		2BC6960A281A6640000A33E9 /* MainPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTest.swift; sourceTree = "<group>"; };
 		2BC6960C281A7D86000A33E9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		2BC6960F281B86F1000A33E9 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
 		2BC69613281B8D62000A33E9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -98,8 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				2B2EE27E281A228100C05E08 /* MVP-Level One */,
-				2B2EE295281A228500C05E08 /* MVP-Level OneTests */,
-				2B2EE29F281A228500C05E08 /* MVP-Level OneUITests */,
 				2B2EE27D281A228100C05E08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,24 +119,6 @@
 				2B2EE28D281A228400C05E08 /* Info.plist */,
 			);
 			path = "MVP-Level One";
-			sourceTree = "<group>";
-		};
-		2B2EE295281A228500C05E08 /* MVP-Level OneTests */ = {
-			isa = PBXGroup;
-			children = (
-				2B2EE296281A228500C05E08 /* MVP_Level_OneTests.swift */,
-			);
-			path = "MVP-Level OneTests";
-			sourceTree = "<group>";
-		};
-		2B2EE29F281A228500C05E08 /* MVP-Level OneUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2B2EE2A0281A228500C05E08 /* MVP_Level_OneUITests.swift */,
-				2B2EE2A2281A228500C05E08 /* MVP_Level_OneUITestsLaunchTests.swift */,
-				2BC69609281A65DA000A33E9 /* MainModuleTests */,
-			);
-			path = "MVP-Level OneUITests";
 			sourceTree = "<group>";
 		};
 		2B2EE2B3281A33C800C05E08 /* MainModule */ = {
@@ -182,14 +154,6 @@
 				2B2EE2B1281A232600C05E08 /* MainPresenter.swift */,
 			);
 			path = Presenter;
-			sourceTree = "<group>";
-		};
-		2BC69609281A65DA000A33E9 /* MainModuleTests */ = {
-			isa = PBXGroup;
-			children = (
-				2BC6960A281A6640000A33E9 /* MainPresenterTest.swift */,
-			);
-			path = MainModuleTests;
 			sourceTree = "<group>";
 		};
 		2BC6960E281A7DA9000A33E9 /* ServiceLayer */ = {
@@ -367,7 +331,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B2EE297281A228500C05E08 /* MVP_Level_OneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,9 +338,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B2EE2A3281A228500C05E08 /* MVP_Level_OneUITestsLaunchTests.swift in Sources */,
-				2BC6960B281A6640000A33E9 /* MainPresenterTest.swift in Sources */,
-				2B2EE2A1281A228500C05E08 /* MVP_Level_OneUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

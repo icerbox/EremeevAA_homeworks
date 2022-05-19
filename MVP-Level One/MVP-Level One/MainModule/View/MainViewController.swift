@@ -11,7 +11,6 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
     }
-
 }
 
 extension MainViewController: UITableViewDataSource {
@@ -39,9 +38,7 @@ extension MainViewController: MainViewProtocol {
     func success() {
         tableView.reloadData()
     }
-    
     func failure(error: Error) {
         print(error.localizedDescription)
     }
-        
 }
