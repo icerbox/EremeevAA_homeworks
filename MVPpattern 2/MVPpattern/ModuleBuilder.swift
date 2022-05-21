@@ -9,24 +9,24 @@ import UIKit
 
 protocol Builder {
     static func createMainModule() -> UIViewController
-    static func createSecondaryModule(movie: Results?) -> UIViewController
+    static func createSecondaryModule(movie: Results?, image: UIImage) -> UIViewController
 }
 
 class ModuleBuilder: Builder {
     
     static func createMainModule() -> UIViewController {
         let view = MainViewController()
-        let networkService = CommentService()
+        let networkService = MovieService()
         let presenter = MainPresenter(view: view, networkService: networkService)
         view.presenter = presenter
         return view
     }
     
     
-    static func createSecondaryModule(movie: Results?) -> UIViewController {
+    static func createSecondaryModule(movie: Results?, image: UIImage) -> UIViewController {
         let view = SecondaryViewController()
-        let networkService = CommentService()
-        let presenter = SecondaryPresenter(view: view, networkService: networkService, movie: movie)
+        let networkService = MovieService()
+        let presenter = SecondaryPresenter(view: view, networkService: networkService, movie: movie, image: image)
         view.secondaryPresenter = presenter
         return view
     }

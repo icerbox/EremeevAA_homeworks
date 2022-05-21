@@ -17,28 +17,27 @@ protocol MainViewProtocol: AnyObject {
 
 //input protocol
 protocol MainViewPresenterProtocol: AnyObject {
-    init(view: MainViewProtocol, networkService: NetworkCommentServiceProtocol)
+    init(view: MainViewProtocol, networkService: NetworkMovieServiceProtocol)
     func getMoviesData(searchText: String)
     var movies: MovieStats? { get set}
     var images: [UIImage]? {get}
+    func getImages() -> [UIImage]
 }
     
 
 
 class MainPresenter: MainViewPresenterProtocol {
-    
     var images: [UIImage]?
     
-   
-    
     weak var view: MainViewProtocol?
-    var networkService: NetworkCommentServiceProtocol! = nil
+    var networkService: NetworkMovieServiceProtocol! = nil
     var movies: MovieStats?
+    
     
 
     
     
-    required init(view: MainViewProtocol, networkService: NetworkCommentServiceProtocol) {
+    required init(view: MainViewProtocol, networkService: NetworkMovieServiceProtocol) {
     self.view = view
     self.networkService = networkService
    }
@@ -51,12 +50,8 @@ class MainPresenter: MainViewPresenterProtocol {
                 case .success(let displayData):
                     self.movies = displayData
                     
-//                for i in self.movies?.results ?? [] {
-//                    let urlString = i.image
-//                    self.images?.append(self.networkService.loadImage(urlString: urlString)!)
-//                      }
-//                      print("Images has been loaded")
-                    
+                    self.images = self.getImages()
+                                        
                     self.view?.success()
                 case .failure(let error):
                     self.view?.failure(error: error)
@@ -65,5 +60,25 @@ class MainPresenter: MainViewPresenterProtocol {
         })
     }
 
+    
+    func getImages() -> [UIImage] {
+        
+        var myImages: [UIImage] = []
+        let dispatchGroup = DispatchGroup()
+        
+        dispatchGroup.enter()
+        for _ in 0..<(movies?.results.count ?? 0) {
+                   
+        for i in self.movies?.results ?? [] {
+        let urlString = i.image
+        myImages.append(self.networkService.loadImage(urlString: urlString)!)
+          }
+        }
+        dispatchGroup.leave()
+        return myImages
+        
+    }
+    
+    
     
 }

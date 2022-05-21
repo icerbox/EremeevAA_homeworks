@@ -11,6 +11,7 @@ class MainViewController: UIViewController {
 
     var tableView = UITableView()
     var searchBar = UISearchBar()
+   
     
     lazy var activityIndicator: UIActivityIndicatorView = {
         let view = UIActivityIndicatorView(style: .large)
@@ -29,6 +30,7 @@ class MainViewController: UIViewController {
         setupConstraints()
     }
     
+    
           
     func setupConstraints() {
         tableView.translatesAutoresizingMaskIntoConstraints = false
@@ -44,7 +46,7 @@ class MainViewController: UIViewController {
     
     func configureTableView() {
         view.addSubview(tableView)
-        tableView.rowHeight = 100
+        tableView.rowHeight = 140
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
     }
     
@@ -83,7 +85,7 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
         var configuration = cell.defaultContentConfiguration()
         configuration.text = movie?.title
         configuration.secondaryText = movie?.resultDescription
-//        configuration.image = presenter.images![indexPath.row]
+        configuration.image = presenter.images?[indexPath.row]
         cell.contentConfiguration = configuration
         return cell
     }
@@ -91,7 +93,7 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
      tableView.deselectRow(at: indexPath, animated: true)
         let movie = presenter.movies?.results[indexPath.row]
-        let secondaryViewController = ModuleBuilder.createSecondaryModule(movie: movie)
+        let secondaryViewController = ModuleBuilder.createSecondaryModule(movie: movie, image: (presenter.images?[indexPath.row] ?? UIImage(named: "Movie"))!)
         navigationController?.pushViewController(secondaryViewController, animated: true)
     }
 }

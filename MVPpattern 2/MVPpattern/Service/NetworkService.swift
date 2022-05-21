@@ -7,12 +7,12 @@
 
 import UIKit
 
-protocol NetworkCommentServiceProtocol {
+protocol NetworkMovieServiceProtocol {
     func getMovies (searchText: String, completion: @escaping (Result<MovieStats?, Error>) -> Void)
     func loadImage(urlString: String) -> UIImage?
 }
  
-class CommentService: NetworkCommentServiceProtocol {
+class MovieService: NetworkMovieServiceProtocol {
         func getMovies(searchText: String, completion: @escaping (Result<MovieStats?, Error>) -> Void) {
 //            let urlString = "https://jsonplaceholder.typicode.com/posts"
             let urlString = "https://imdb-api.com/en/API/Search/k_u6h4msc9/\(searchText)"
