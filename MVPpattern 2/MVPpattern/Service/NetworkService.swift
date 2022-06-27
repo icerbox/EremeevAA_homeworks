@@ -15,7 +15,7 @@ protocol NetworkMovieServiceProtocol {
 class MovieService: NetworkMovieServiceProtocol {
         func getMovies(searchText: String, completion: @escaping (Result<MovieStats?, Error>) -> Void) {
 //            let urlString = "https://jsonplaceholder.typicode.com/posts"
-            let urlString = "https://imdb-api.com/en/API/Search/k_u6h4msc9/\(searchText)"
+            let urlString = "https://imdb-api.com/en/API/Search/k_rfa65i44/\(searchText)"
             guard let url = URL(string: urlString) else {
                 return
             }
