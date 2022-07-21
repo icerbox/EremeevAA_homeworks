@@ -7,31 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2BB1185A2866C2BE001ABEE7 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 2BB118592866C2BE001ABEE7 /* BullsEye.html */; };
-		2BE5445F285E1C0F00B50792 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5445E285E1C0F00B50792 /* AppDelegate.swift */; };
-		2BE54461285E1C0F00B50792 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE54460285E1C0F00B50792 /* SceneDelegate.swift */; };
-		2BE54463285E1C0F00B50792 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE54462285E1C0F00B50792 /* ViewController.swift */; };
-		2BE54466285E1C0F00B50792 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE54464285E1C0F00B50792 /* Main.storyboard */; };
-		2BE54468285E1C1400B50792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE54467285E1C1400B50792 /* Assets.xcassets */; };
-		2BE5446B285E1C1400B50792 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE54469285E1C1400B50792 /* LaunchScreen.storyboard */; };
-		2BE544732866B56E00B50792 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE544722866B56E00B50792 /* AboutViewController.swift */; };
+		2B819CBC287F951900A9563B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CBB287F951900A9563B /* AppDelegate.swift */; };
+		2B819CBE287F951900A9563B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CBD287F951900A9563B /* SceneDelegate.swift */; };
+		2B819CC0287F951900A9563B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CBF287F951900A9563B /* MainViewController.swift */; };
+		2B819CC3287F951900A9563B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B819CC1287F951900A9563B /* Main.storyboard */; };
+		2B819CC5287F951C00A9563B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B819CC4287F951C00A9563B /* Assets.xcassets */; };
+		2B819CC8287F951C00A9563B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B819CC6287F951C00A9563B /* LaunchScreen.storyboard */; };
+		2B819CD4287FAE6000A9563B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CD3287FAE5F00A9563B /* Network.swift */; };
+		2B819CD6287FB3CE00A9563B /* PasswordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CD5287FB3CE00A9563B /* PasswordsModel.swift */; };
+		2B819CD8287FDAE400A9563B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CD7287FDAE400A9563B /* ViewController.swift */; };
+		2B819CDA287FDEB800A9563B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CD9287FDEB800A9563B /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2BB118592866C2BE001ABEE7 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
-		2BE5445B285E1C0F00B50792 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2BE5445E285E1C0F00B50792 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BE54460285E1C0F00B50792 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2BE54462285E1C0F00B50792 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2BE54465285E1C0F00B50792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2BE54467285E1C1400B50792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2BE5446A285E1C1400B50792 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2BE5446C285E1C1400B50792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BE544722866B56E00B50792 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		2B819CB8287F951900A9563B /* PasswordBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B819CBB287F951900A9563B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B819CBD287F951900A9563B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2B819CBF287F951900A9563B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2B819CC2287F951900A9563B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B819CC4287F951C00A9563B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B819CC7287F951C00A9563B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B819CC9287F951C00A9563B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B819CD3287FAE5F00A9563B /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		2B819CD5287FB3CE00A9563B /* PasswordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsModel.swift; sourceTree = "<group>"; };
+		2B819CD7287FDAE400A9563B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B819CD9287FDEB800A9563B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BE54458285E1C0F00B50792 /* Frameworks */ = {
+		2B819CB5287F951900A9563B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,74 +45,76 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BE54452285E1C0F00B50792 = {
+		2B819CAF287F951900A9563B = {
 			isa = PBXGroup;
 			children = (
-				2BE5445D285E1C0F00B50792 /* BullsEye */,
-				2BE5445C285E1C0F00B50792 /* Products */,
+				2B819CBA287F951900A9563B /* PasswordBook */,
+				2B819CB9287F951900A9563B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2BE5445C285E1C0F00B50792 /* Products */ = {
+		2B819CB9287F951900A9563B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2BE5445B285E1C0F00B50792 /* BullsEye.app */,
+				2B819CB8287F951900A9563B /* PasswordBook.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2BE5445D285E1C0F00B50792 /* BullsEye */ = {
+		2B819CBA287F951900A9563B /* PasswordBook */ = {
 			isa = PBXGroup;
 			children = (
-				2BB118592866C2BE001ABEE7 /* BullsEye.html */,
-				2BE5445E285E1C0F00B50792 /* AppDelegate.swift */,
-				2BE54460285E1C0F00B50792 /* SceneDelegate.swift */,
-				2BE54462285E1C0F00B50792 /* ViewController.swift */,
-				2BE54464285E1C0F00B50792 /* Main.storyboard */,
-				2BE54467285E1C1400B50792 /* Assets.xcassets */,
-				2BE544722866B56E00B50792 /* AboutViewController.swift */,
-				2BE54469285E1C1400B50792 /* LaunchScreen.storyboard */,
-				2BE5446C285E1C1400B50792 /* Info.plist */,
+				2B819CBB287F951900A9563B /* AppDelegate.swift */,
+				2B819CBD287F951900A9563B /* SceneDelegate.swift */,
+				2B819CD7287FDAE400A9563B /* ViewController.swift */,
+				2B819CBF287F951900A9563B /* MainViewController.swift */,
+				2B819CD9287FDEB800A9563B /* CustomTableViewCell.swift */,
+				2B819CD5287FB3CE00A9563B /* PasswordsModel.swift */,
+				2B819CD3287FAE5F00A9563B /* Network.swift */,
+				2B819CC1287F951900A9563B /* Main.storyboard */,
+				2B819CC4287F951C00A9563B /* Assets.xcassets */,
+				2B819CC6287F951C00A9563B /* LaunchScreen.storyboard */,
+				2B819CC9287F951C00A9563B /* Info.plist */,
 			);
-			path = BullsEye;
+			path = PasswordBook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2BE5445A285E1C0F00B50792 /* BullsEye */ = {
+		2B819CB7287F951900A9563B /* PasswordBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2BE5446F285E1C1400B50792 /* Build configuration list for PBXNativeTarget "BullsEye" */;
+			buildConfigurationList = 2B819CCC287F951C00A9563B /* Build configuration list for PBXNativeTarget "PasswordBook" */;
 			buildPhases = (
-				2BE54457285E1C0F00B50792 /* Sources */,
-				2BE54458285E1C0F00B50792 /* Frameworks */,
-				2BE54459285E1C0F00B50792 /* Resources */,
+				2B819CB4287F951900A9563B /* Sources */,
+				2B819CB5287F951900A9563B /* Frameworks */,
+				2B819CB6287F951900A9563B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BullsEye;
-			productName = BullsEye;
-			productReference = 2BE5445B285E1C0F00B50792 /* BullsEye.app */;
+			name = PasswordBook;
+			productName = PasswordBook;
+			productReference = 2B819CB8287F951900A9563B /* PasswordBook.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2BE54453285E1C0F00B50792 /* Project object */ = {
+		2B819CB0287F951900A9563B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					2BE5445A285E1C0F00B50792 = {
+					2B819CB7287F951900A9563B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 2BE54456285E1C0F00B50792 /* Build configuration list for PBXProject "BullsEye" */;
+			buildConfigurationList = 2B819CB3287F951900A9563B /* Build configuration list for PBXProject "PasswordBook" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,57 +122,59 @@
 				en,
 				Base,
 			);
-			mainGroup = 2BE54452285E1C0F00B50792;
-			productRefGroup = 2BE5445C285E1C0F00B50792 /* Products */;
+			mainGroup = 2B819CAF287F951900A9563B;
+			productRefGroup = 2B819CB9287F951900A9563B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2BE5445A285E1C0F00B50792 /* BullsEye */,
+				2B819CB7287F951900A9563B /* PasswordBook */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2BE54459285E1C0F00B50792 /* Resources */ = {
+		2B819CB6287F951900A9563B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE5446B285E1C1400B50792 /* LaunchScreen.storyboard in Resources */,
-				2BB1185A2866C2BE001ABEE7 /* BullsEye.html in Resources */,
-				2BE54468285E1C1400B50792 /* Assets.xcassets in Resources */,
-				2BE54466285E1C0F00B50792 /* Main.storyboard in Resources */,
+				2B819CC8287F951C00A9563B /* LaunchScreen.storyboard in Resources */,
+				2B819CC5287F951C00A9563B /* Assets.xcassets in Resources */,
+				2B819CC3287F951900A9563B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2BE54457285E1C0F00B50792 /* Sources */ = {
+		2B819CB4287F951900A9563B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE54463285E1C0F00B50792 /* ViewController.swift in Sources */,
-				2BE5445F285E1C0F00B50792 /* AppDelegate.swift in Sources */,
-				2BE544732866B56E00B50792 /* AboutViewController.swift in Sources */,
-				2BE54461285E1C0F00B50792 /* SceneDelegate.swift in Sources */,
+				2B819CC0287F951900A9563B /* MainViewController.swift in Sources */,
+				2B819CBC287F951900A9563B /* AppDelegate.swift in Sources */,
+				2B819CD4287FAE6000A9563B /* Network.swift in Sources */,
+				2B819CD6287FB3CE00A9563B /* PasswordsModel.swift in Sources */,
+				2B819CBE287F951900A9563B /* SceneDelegate.swift in Sources */,
+				2B819CD8287FDAE400A9563B /* ViewController.swift in Sources */,
+				2B819CDA287FDEB800A9563B /* CustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2BE54464285E1C0F00B50792 /* Main.storyboard */ = {
+		2B819CC1287F951900A9563B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2BE54465285E1C0F00B50792 /* Base */,
+				2B819CC2287F951900A9563B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2BE54469285E1C1400B50792 /* LaunchScreen.storyboard */ = {
+		2B819CC6287F951C00A9563B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2BE5446A285E1C1400B50792 /* Base */,
+				2B819CC7287F951C00A9563B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,7 +182,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2BE5446D285E1C1400B50792 /* Debug */ = {
+		2B819CCA287F951C00A9563B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		2BE5446E285E1C1400B50792 /* Release */ = {
+		2B819CCB287F951C00A9563B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,7 +298,7 @@
 			};
 			name = Release;
 		};
-		2BE54470285E1C1400B50792 /* Debug */ = {
+		2B819CCD287F951C00A9563B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -298,13 +306,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BullsEye/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
+				INFOPLIST_FILE = PasswordBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,7 +317,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = IceR.BullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = IceR.PasswordBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +325,7 @@
 			};
 			name = Debug;
 		};
-		2BE54471285E1C1400B50792 /* Release */ = {
+		2B819CCE287F951C00A9563B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -328,13 +333,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BullsEye/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Bull's Eye";
+				INFOPLIST_FILE = PasswordBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -342,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = IceR.BullsEye;
+				PRODUCT_BUNDLE_IDENTIFIER = IceR.PasswordBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -353,25 +355,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2BE54456285E1C0F00B50792 /* Build configuration list for PBXProject "BullsEye" */ = {
+		2B819CB3287F951900A9563B /* Build configuration list for PBXProject "PasswordBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BE5446D285E1C1400B50792 /* Debug */,
-				2BE5446E285E1C1400B50792 /* Release */,
+				2B819CCA287F951C00A9563B /* Debug */,
+				2B819CCB287F951C00A9563B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2BE5446F285E1C1400B50792 /* Build configuration list for PBXNativeTarget "BullsEye" */ = {
+		2B819CCC287F951C00A9563B /* Build configuration list for PBXNativeTarget "PasswordBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BE54470285E1C1400B50792 /* Debug */,
-				2BE54471285E1C1400B50792 /* Release */,
+				2B819CCD287F951C00A9563B /* Debug */,
+				2B819CCE287F951C00A9563B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2BE54453285E1C0F00B50792 /* Project object */;
+	rootObject = 2B819CB0287F951900A9563B /* Project object */;
 }
