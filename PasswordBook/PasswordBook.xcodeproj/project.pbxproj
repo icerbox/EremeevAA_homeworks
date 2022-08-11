@@ -15,7 +15,7 @@
 		2B819CC8287F951C00A9563B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B819CC6287F951C00A9563B /* LaunchScreen.storyboard */; };
 		2B819CD4287FAE6000A9563B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CD3287FAE5F00A9563B /* Network.swift */; };
 		2B819CD6287FB3CE00A9563B /* PasswordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CD5287FB3CE00A9563B /* PasswordsModel.swift */; };
-		2B819CD8287FDAE400A9563B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CD7287FDAE400A9563B /* ViewController.swift */; };
+		2B819CD8287FDAE400A9563B /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CD7287FDAE400A9563B /* FindViewController.swift */; };
 		2B819CDA287FDEB800A9563B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B819CD9287FDEB800A9563B /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,7 @@
 		2B819CC9287F951C00A9563B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B819CD3287FAE5F00A9563B /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		2B819CD5287FB3CE00A9563B /* PasswordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsModel.swift; sourceTree = "<group>"; };
-		2B819CD7287FDAE400A9563B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B819CD7287FDAE400A9563B /* FindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		2B819CD9287FDEB800A9563B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 			children = (
 				2B819CBB287F951900A9563B /* AppDelegate.swift */,
 				2B819CBD287F951900A9563B /* SceneDelegate.swift */,
-				2B819CD7287FDAE400A9563B /* ViewController.swift */,
+				2B819CD7287FDAE400A9563B /* FindViewController.swift */,
 				2B819CBF287F951900A9563B /* MainViewController.swift */,
 				2B819CD9287FDEB800A9563B /* CustomTableViewCell.swift */,
 				2B819CD5287FB3CE00A9563B /* PasswordsModel.swift */,
@@ -155,7 +155,7 @@
 				2B819CD4287FAE6000A9563B /* Network.swift in Sources */,
 				2B819CD6287FB3CE00A9563B /* PasswordsModel.swift in Sources */,
 				2B819CBE287F951900A9563B /* SceneDelegate.swift in Sources */,
-				2B819CD8287FDAE400A9563B /* ViewController.swift in Sources */,
+				2B819CD8287FDAE400A9563B /* FindViewController.swift in Sources */,
 				2B819CDA287FDEB800A9563B /* CustomTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
